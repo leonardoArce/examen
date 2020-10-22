@@ -4,7 +4,7 @@
 	display: block;
 	background-color: #2F4254;
 	list-style: none;
-	position: static;
+	position: fixed;
 
 }
 #menu ul{
@@ -56,6 +56,7 @@
 	margin:auto;
 	padding-top: 55px;
     margin-bottom: 15px;
+    
 	
 }
 #sec1 h1{
@@ -147,6 +148,7 @@
 	background-color: #1ABC9C; 
 	border-top: 8px solid rgba(0,0,0,0.1);
 	text-align: center;
+	padding-right: 21%;
 
 }
 #prim{
@@ -158,12 +160,11 @@
 	font-family: arial,elvetica;
 	font-size: 1em;
 	color: white;
-}
-#prim h1:hover{
-	color: red;
+
 }
 #prim:hover{
 	padding-top: 20px;
+	h1: red;
 
 }
 #se{
@@ -210,6 +211,7 @@
 	font-family: arial,elvetica;
 	font-size: 1em;
 	color: white;
+	border-style: 1px;
 }
 #cuar h1:hover{
 	color: red;
@@ -250,7 +252,8 @@
 	text-align: center;
 }
 #sec41{
-	width: 49%;
+	width: 750px;
+	float: left;
 }
 #sec41 ul{
 	list-style: none;
@@ -269,9 +272,11 @@
 	background-color: blue;
 }
 #sec42{
-	width: 49%;
+	
 	float: right;
-	padding-right: 40px;
+	padding-left: 3%;
+	padding-top: 40px;
+	
 
 }
 
@@ -303,20 +308,31 @@
 	display: inline;
 	padding-left: 10px;
 }
+#linea{
+	height: 2px;
+	background-color: red;
+	right: 100%;
+	
+}
+#linea2 img{
+	padding-left:  140px;
+	border-radius: 2px;
+}
 #sec6{
-	min-height: 700px;
+	min-height: 800px;
 	background-color: rgb(55, 89, 117);
 	border-top: 8px solid rgba(0,0,0,0.1);
-	padding-left: 170px;
+	padding-left: 300px;
+
 }
 #sec61{
-	height: 500px;
-	width: 20%;
-	border-style: solid;
+	height: 600px;
+	width: 21%;
 	margin: 10px;
 	float: left;
 	overflow: hidden;
 	border-radius: 30px;
+	background-color: #2C3E53;
 }
 #sec61 h2 button{
 	background-color: white;
@@ -331,17 +347,17 @@
 	color: white;
 	font-size: 23px;
 	left: 10px;
-	margin: 1px;
+	margin: 0px;
 	display: inline-block;
 	background-color: red; 
-	border-radius: 30px;
+	border-radius: 0px;
 }
 #sec61 button:active{
 	background-color: blue;
 }
 #sec62{
-	width: 20%;
-	border-style: solid;
+	width: 22%;
+	background-color: #2C3E53;
 	margin: 10px;
 	float: left;
 	overflow: hidden;
@@ -350,6 +366,7 @@
 #sec62 h2 button{
 	background-color: white;
 	color: black;
+	border-radius: 0px;
 }
 #sec62 h2 button:hover{
 	background-color: red;
@@ -360,18 +377,18 @@
 	color: white;
 	font-size: 23px;
 	left: 10px;
-	margin: 1px;
+	margin: 0px;
 	display: inline-block;
 	background-color: red; 
-	border-radius: 30px;
+	border-radius: 0px;
 }
 #sec62 button:active{
 	background-color: blue;
 
 }
 #sec63{
-	width: 20%;
-	border-style: solid;
+	width: 21%;
+	background-color: #2C3E53;
 	margin: 2px;
 	float: left;
 	border-radius: 30px;
@@ -379,6 +396,7 @@
 #sec63 h2 button{
 	background-color: white;
 	color: black;
+	border-radius: 0px;
 }
 #sec63 h2 button:hover{
 	background-color: red;
@@ -389,7 +407,7 @@
 	color: white;
 	font-size: 23px;
 	left: 10px;
-	margin: 1px;
+	margin: 0px;
 	display: inline-block;
 	background-color: red; 
 	border-radius: 30px;
@@ -416,13 +434,13 @@
 	padding-top: 0px;
 	width: 20%;
 	height: 300px;
-	background-color: gray;
+	background-color: white;
 	border-color: 2px black;
 	float: left;
-	padding-left: 30px;
-	border-style: solid;
+	color: black;
 	text-align: center;
 	border-radius: 7px;
+	margin: 10px;
 }
 #uno p{
 	text-align: center;
@@ -437,18 +455,57 @@
 #uno p button:hover{
 	background-color: #EA3F31;
 }
-#uno h1:hover{
-	background-color: #2F4254;
+
+
+#uno1{
+	padding-top: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #34495E;
+	border-color: 2px black;
 	color: white;
+	border-radius: 7px;
+	margin: 0px;
+	text-align: center;
+
+}
+#uno1:hover{
+	background-color: white;
+	color:#34495E;
+}
+#circulo{
+	background-color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 60px;
+	color: #34495E;
+	text-align: center;
+	margin-left: 93px;
+}
+#ciruclo:hover{
+	background-color: #34495E;
+	color: white;
+}
+#uno2{
+	padding-top: 0px;
+	width: 100%;
+	height: 25px;
+	background-color: gray;
+	border-color: 2px black;
+	color: white;
+	text-align: center;
+	border-radius: 7px;
+	margin: 0px;
+
 }
 #two{
 	width: 20%;
 	height: 300px;
 	float: left;
-	padding-left:30px;
-	border-style: solid;
+	color: black;
+	margin: 10px;
 	text-align: center;
-	background-color: gray;
+	background-color: white;
 	border-radius: 7px;
 
 }
@@ -465,24 +522,98 @@
 #two p button:hover{
 	background-color: #EA3F31;
 }
-#two h1:hover{
+/*#two h1:hover{
 	background-color: #2F4254;
 	color: white;
+}*/
+#two1{
+	padding-top: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #34495E;
+	border-color: 2px black;
+	color: white;
+	text-align: center;
+	border-radius: 7px;
+	margin: 0px;
+
+}
+#circulo2{
+	background-color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 70px;
+	color: #34495E;
+	text-align: center;
+	margin-left: 93px;
+}
+#two2{
+	padding-top: 0px;
+	width: 100%;
+	height: 25px;
+	background-color: gray;
+	border-color: 2px black;
+	color: black;
+	text-align: center;
+	border-radius: 7px;
+	margin: 0px;
+
 }
 #tres{
 	width: 20%;
 	height: 300px;
 	border-color: 2px black;
 	float: left;
-	padding-left: 30px;
-	border-style: solid;
 	border-radius: 7px;
 	text-align: center;
-	background-color: grey;
+	background-color: white;
+	margin: 10px;
+	color: black;
 }
 #tres p{
 	text-align: center;
 	
+}
+#tres1{
+	padding-top: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #34495E;
+	border-color: 2px black;
+	color: white;
+	text-align: center;
+	border-radius: 7px;
+	margin: 0px;
+
+}
+#tres1:hover{
+	background-color: white;
+	color:#34495E;
+}
+#circulo3{
+	background-color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 65px;
+	color: #34495E;
+	text-align: center;
+	margin-left: 93px;
+}
+#ciruclo3:hover{
+	background-color: #34495E;
+	color: white;
+}
+#tres2{
+	padding-top: 0px;
+	width: 100%;
+	height: 25px;
+	background-color: gray;
+	border-color: 2px black;
+	
+	text-align: center;
+	border-radius: 7px;
+	margin: 0px;
+
 }
 
 #tres p button{
@@ -494,10 +625,10 @@
 #tres p button:hover{
 	background-color: #EA3F31;
 }
-#tres h1:hover{
+/*#tres h1:hover{
 	background-color: #2F4254;
 	color: white;
-}
+}*/
 #sec9{
 	min-height: 400px;
 	background-color: #1ABC9C;
@@ -577,7 +708,7 @@
 	border-top:30px;
 	display: inline-block;
 	text-align: center;
-	font-size: 13.4px;
+	font-size: 12.4px;
 	float: right;
 	border-left: none;
 }
@@ -599,7 +730,7 @@
 	text-align: center;
 	float: left;
 	border-right: none;
-
+	font-size: 16px;
 }
 #cont2 button{
 	text-align: center;
@@ -615,7 +746,6 @@
 	text-align: center;
 	font-family: arial,elvetica;
 	font-size: 9px;
-
 }
 #fin ul{
 	list-style: none;
@@ -633,14 +763,14 @@
 	border-left: none;
 	border-top: none;
 	border-bottom: none;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
+	font-family:signika;
+	font-size: 30px;
 }
-
 #fin ul li button:hover{
 	border-radius: 50%;
 	background-color: white;
 	color: #2F4254;
 }
-
 
