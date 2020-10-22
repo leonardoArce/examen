@@ -29,6 +29,9 @@
 	position: fixed;
 	border-bottom: rgb(102, 121, 243);
 	border-radius:30px;
+	float: right;
+	padding-top: 600px;
+
 }
 #regresar a{
 	border-radius:30px;
@@ -147,8 +150,8 @@
 	min-height: 680px;
 	background-color: #1ABC9C; 
 	border-top: 8px solid rgba(0,0,0,0.1);
-	text-align: center;
 	padding-right: 21%;
+	text-align: center;
 
 }
 #prim{
@@ -164,8 +167,9 @@
 }
 #prim:hover{
 	padding-top: 20px;
-	h1: red;
-
+}
+#prim h1:hover{
+	color: red;
 }
 #se{
 	min-height: 100px;
@@ -228,18 +232,30 @@
 #con ul{
 	list-style: none;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 0px;
 }
 #con ul li{
 	display: inline;
-	margin-left: 10px;
+	margin-left: 0px;
 	color: white;
 	font-family: arial,elvetica;
-	font-size: 20px;
-	margin-top: 20px;
+	font-size: 15px;
+	margin-left: 20px;
+
+	
 }
-#con ul li img{
+/*#con ul li img{
 	border-radius: 3px;
+	margin: 0px;
+	padding: 0px;
+}*/
+.imagenes{
+	height: 100%;
+	padding-right: 60px;
+}
+.escrito{
+	padding-right: 2%;
+	margin: 0px;
 }
 #sec4{
 
@@ -285,14 +301,16 @@
 	background-color: rgb(55, 89, 117);
 	border-color: rgb(106, 109, 109);
 	border-top: 8px solid rgba(0,0,0,0.1);
+	padding-top: 40px;
 }
 #sec5 p{
 	color: white;
 	font-family: "Open Sans","sans-serif";
     font-size: 19px;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 0px;
 }
+
 #fotos{
 	min-height: 600px;
 	background-color: #1ABC9C;
@@ -326,17 +344,18 @@
 
 }
 #sec61{
-	height: 600px;
+	height: 530px;
 	width: 21%;
 	margin: 10px;
 	float: left;
 	overflow: hidden;
-	border-radius: 30px;
 	background-color: #2C3E53;
+	border-radius: 30px;
 }
 #sec61 h2 button{
 	background-color: white;
 	color: black;
+
 }
 #sec61 h2 button:hover{
 	background-color: red;
@@ -350,13 +369,13 @@
 	margin: 0px;
 	display: inline-block;
 	background-color: red; 
-	border-radius: 0px;
 }
 #sec61 button:active{
 	background-color: blue;
 }
 #sec62{
 	width: 22%;
+	height: 530px;
 	background-color: #2C3E53;
 	margin: 10px;
 	float: left;
@@ -380,7 +399,7 @@
 	margin: 0px;
 	display: inline-block;
 	background-color: red; 
-	border-radius: 0px;
+	border-radius: 30px;
 }
 #sec62 button:active{
 	background-color: blue;
@@ -388,10 +407,12 @@
 }
 #sec63{
 	width: 21%;
+	height: 565px;
 	background-color: #2C3E53;
 	margin: 2px;
 	float: left;
 	border-radius: 30px;
+	overflow: hidden;
 }
 #sec63 h2 button{
 	background-color: white;
@@ -699,16 +720,17 @@
 	border-top: 8px solid rgba(0,0,0,0.1);
 	padding-right: 12%;
 }
+
 #cont1{
 	width: 30%;
 	margin-right: 135px;
 	background-color: #DEE1DD;
 	border-style: solid;
-	border-color: 9px black
+	border-color: 19px black;
 	border-top:30px;
 	display: inline-block;
 	text-align: center;
-	font-size: 12.4px;
+	font-size: 12.5px;
 	float: right;
 	border-left: none;
 }
@@ -716,7 +738,8 @@
 	border-style: dotted;
 	border-left: none;
 	border-right: none;
-	border-top: none
+	border-top: none;
+
 }
 #cont1 img {
 	border-radius: 30px;
@@ -731,11 +754,20 @@
 	float: left;
 	border-right: none;
 	font-size: 16px;
+
 }
 #cont2 button{
 	text-align: center;
 	background-color: red;
 	border-radius: 30px;
+	padding-left: 20px;
+}
+#cont3{
+	background-color: #1ABC9C;
+	width: 280px;
+	height: 192px;
+	border-radius: 20px;
+	padding-left: 20px;
 }
 #fin{
 	border-top: 8px solid rgba(0,0,0,0.1);
